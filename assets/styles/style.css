@@ -1,0 +1,171 @@
+/*-----> DISEÑO 1 <-----*/
+
+/*
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+
+/*Home*/
+
+/*
+#imagen1 {
+    width: 100%; 
+    height: 400px;
+}
+
+h1 {
+    position: absolute;
+    top: 30px; left: 30px;
+    font-size: 80px;
+}
+
+#UpcomingEvents {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+#logo {
+    width: 180px;
+    position: absolute;
+    top: 34%; left: 80%;
+}
+
+
+nav a {
+    width: 14%;
+    height: 80px;
+    display: table;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 40px; left: 10px;
+}
+
+nav a:hover {
+    color: rgb(147, 128, 255);
+    text-decoration: underline;
+}
+
+#contenido {
+    display: inline-block;
+    position: absolute;
+    top: 466px; left: 250px;
+}
+
+h3 {
+    margin: 20px 0 0 0;
+}
+
+.pDeSangria {
+    margin: 0 0 0 20px;
+}
+
+/*contacto*/
+/*
+.contacto {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+strong {
+    color: blue;
+    text-decoration: underline;
+}
+*/
+
+
+
+/*-----> DISEÑO 2 <-----*/
+
+/*Home*/
+
+* {
+    padding: 16px 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+#imagen1 {
+    width: 100%; 
+    height: 400px;
+}
+
+h1 {
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+}
+
+#UpcomingEvents {
+    border: 3px solid #000000;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+#logo {
+    width: 180px;
+}
+
+nav a {
+    width: 14%;
+    height: 80px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(58, 58, 255);
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+nav {
+    position: absolute;
+    top: 5%; left: 62%;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(20, 160, 20);
+}
+
+#contenido {
+    display: inline-block;
+    position: absolute;
+    top: 550px; left: 250px;
+}
+
+h3 {
+    margin: 40px 0 -31px 0;
+}
+
+.pDeSangria {
+    margin: 0 0 0 20px;
+}
+
+/*contacto*/
+
+.contacto {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+strong {
+    color: blue;
+    text-decoration: underline;
+}
