@@ -94,7 +94,6 @@ h3 {
 /*Home*/
 
 * {
-  padding: 16px 0px;
   margin: 0;
   box-sizing: border-box;
   font-family: "Comic Neue", cursive;
@@ -139,7 +138,7 @@ nav a {
 nav {
   position: absolute;
   top: 10%;
-  left: 40%;
+  left: 30%;
 }
 
 nav a:hover {
@@ -159,10 +158,6 @@ nav a:hover {
   left: 250px;
 }
 
-h3 {
-  margin: 40px 0 -31px 0;
-}
-
 .pDeSangria {
   margin: 0 0 0 20px;
 }
@@ -173,11 +168,6 @@ h3 {
   font-weight: bold;
   font-size: 20px;
   padding: 10px;
-}
-
-#mail {
-  color: blue;
-  text-decoration: underline;
 }
 
 /*GAME*/
@@ -204,4 +194,65 @@ h3 {
 .pDephoneEmail {
   display: inline-block;
   margin: 0 25px;
+}
+
+.mapa {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.mapa p {
+  margin: 0 0 0 1em;
+}
+
+.mapa-contenido {
+  padding: 0 80px 0 0;
+}
+
+/*rules*/
+
+dt {
+  font-weight: bold;
+}
+
+/*form*/
+
+.section-register {
+  display: flex;
+  justify-content: center;
+}
+
+.section-register form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background-color: darkgray;
+  border-radius: 8px;
+}
+.section-register fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+.section-register fieldset label {
+  padding-left: 20px;
+}
+.section-register fieldset h3 {
+  padding-left: 20px;
+}
+.items {
+  width: 70%;
+  display: flex;
+  padding-left: 40px;
+  justify-content: space-between;
+}
+.date-info {
+  border: 10px solid green;
+  flex-direction: row;
+}
+
+.items div {
+  display: flex;
+  justify-content: center;
 }
